@@ -1,13 +1,13 @@
 plugins { id 'com.android.application' }
 android {
-    namespace 'com.ai.app'
+    namespace 'com.battle.app'
     compileSdk 34
     defaultConfig {
-        applicationId 'com.ai.app'
+        applicationId 'com.battle.app'
         minSdk 21
         targetSdk 34
         versionCode 1
-        versionName '1.0'
+        versionName '1.0.0'
     }
     androidResources {
         noCompress 'html'
@@ -28,4 +28,3 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 }
-dependencies { implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0' }
